@@ -20,4 +20,3 @@ let paginas: number = 48
 let dimensiones: string = "8.5 x 0.5 x 10 pulgadas" 
 let peso: string = "1.0 libras"
 let disponible: boolean = true
-
