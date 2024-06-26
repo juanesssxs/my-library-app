@@ -1,20 +1,15 @@
-
-export class book {
-    isbn:number;
+export class Book {
     titulo: string;
     editorial: string;
     precio: number;
     genero: string;
     descripcion: string;
 
-    constructor(isbn: number,
-        titulo: string,
-        editorial: string,
-        precio: number,
-        genero: string,
-        descripcion: string,
-    ) {
-        this.isbn = isbn;
+    constructor(titulo: string,
+                editorial: string,
+                precio: number,
+                genero: string,
+                descripcion: string) {
         this.titulo = titulo;
         this.editorial = editorial;
         this.precio = precio;
@@ -22,7 +17,6 @@ export class book {
         this.descripcion = descripcion;
     }
 }
-
 
 
 
